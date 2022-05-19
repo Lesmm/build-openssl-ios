@@ -2,7 +2,8 @@
 
 set -x
 
-TMP_DIR=../build_openssl
+PWD=$(pwd)
+TMP_DIR=${PWD}/build
 CROSS_TOP_SIM="`xcode-select --print-path`/Platforms/iPhoneSimulator.platform/Developer"
 CROSS_SDK_SIM="iPhoneSimulator.sdk"
 
